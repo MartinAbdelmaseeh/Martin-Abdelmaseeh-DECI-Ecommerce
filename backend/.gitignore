@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.test
+cookies.txt
+
+# uploads/ is intentionally NOT ignored — the folder holds real demo
+# product images that need to ship with the repo. Anything uploaded later
+# through the admin UI will also get tracked
