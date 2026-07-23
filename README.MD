@@ -154,11 +154,14 @@ When running via Docker (`docker compose up`), both migrations and data seeding 
 ## Running the tests
 
 ```bash
-cd backend
-cp .env.example .env.test   # point DATABASE_URL at a separate test database
+cd frontend
 npm test
 ```
-
+```bash
+cd backend
+cp .env.example .env.test 
+npm test
+```
 The test suite provisions its own Postgres test database and schema automatically (`tests/globalSetup.js`) and runs 48 tests across auth, products, cart, and orders — including permission checks (admin vs. customer), edge cases (empty cart checkout, duplicate registration), and SQL-injection-safety on the sort parameter.
 
 ---
