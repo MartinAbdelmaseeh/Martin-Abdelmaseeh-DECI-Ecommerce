@@ -9,7 +9,7 @@ A full-stack e-commerce application built for DECI Level 5: authentication and r
 ## Try it in under 2 minutes (Docker)
 
 ```bash
-git clone https://github.com/MartinAbdelmaseeh/relay-ecommerce.git
+git clone https://github.com/MartinAbdelmaseeh/Martin-Abdelmaseeh-DECI-Ecommerce.git
 cd relay-ecommerce
 cp .env.example .env
 ```
